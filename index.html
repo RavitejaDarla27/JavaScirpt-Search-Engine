@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Men's Cart</title>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <label><h2>Men's Cart</h2></label>
+            <form>
+                <i class="fas fa-search"></i>
+                <input type="text" onkeyup="search()" id="search-item" placeholder="Search Product">
+            </form>
+        </header>
+
+        <div class="product-list" id="productsList">
+
+            <div class="product">
+                <img src="images/Glasses/sunglasses.png" alt="">
+                <div class="p-details">
+                    <h2>Sun Glasses</h2>
+                    <h3>$50</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="images/Boxers/Graphic print men boxers.jpg" alt="">
+                <div class="p-details">
+                    <h2>Graphic Print Men Boxers</h2>
+                    <h3>$50</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shirts/Men Fit White Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Men's Fit Shirt White </h2>
+                    <h3>$100</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shoes/Boots for men shoes.jpg" alt="">
+                <div class="p-details">
+                    <h2>Boots For Men Shoes</h2>
+                    <h3>$120</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/T-Shirts/Printed Men Round Neck Grey T-Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Men Round Neck Grey T-Shirt</h2>
+                    <h3>$90</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Watchs/Fastrack Analog Watch.jpg" alt="">
+                <div class="p-details">
+                    <h2>Fastrack Analog Watch</h2>
+                    <h3>$200</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Boxers/Checks Boxer.jpg" alt="">
+                <div class="p-details">
+                    <h2>Checks Boxer For Men</h2>
+                    <h3>$30</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Glasses/sunglass1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Black Sun Glasses</h2>
+                    <h3>$70</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Watchs/TimeWear White Number Dail Watch.jpg" alt="">
+                <div class="p-details">
+                    <h2>TimeWear Number Dail Watch</h2>
+                    <h3>$50</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shirts/Men Regualr Fit Printed Cut Away Collar Casual Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Men's Casual Shirt</h2>
+                    <h3>$59</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shoes/canvas shoes for men.jpg" alt="">
+                <div class="p-details">
+                    <h2>Canvas Shoes For Men</h2>
+                    <h3>$45</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shoes/casual shoes for men.jpg" alt="">
+                <div class="p-details">
+                    <h2>Casual Shoes For Men</h2>
+                    <h3>$50</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shoes/running shoes black.jpg" alt="">
+                <div class="p-details">
+                    <h2>Running Shoes Black</h2>
+                    <h3>$50</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shoes/running shoes.jpg" alt="">
+                <div class="p-details">
+                    <h2>Running Shoes</h2>
+                    <h3>$230</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shoes/sneakers for men shoes.jpg" alt="">
+                <div class="p-details">
+                    <h2>Sneakers For Men Shoes</h2>
+                    <h3>$300</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shirts/Men Regular Fit Grey Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Men Grey Shirt</h2>
+                    <h3>$159</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shirts/Men Regular Slim Fit shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Men Slim Fit shirt</h2>
+                    <h3>$20</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Shirts/Slim Fit Solid Slim Collar Casual Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Men Slim Fit Casual Shirt</h2>
+                    <h3>$50</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/T-Shirts/Round Neck Men White T-shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Round Neck Men White T-shirt</h2>
+                    <h3>$60</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/T-Shirts/Self Design Men Black T-Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Self Design Men T-Shirt</h2>
+                    <h3>$310</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/T-Shirts/Striped Men Polo Neck Print T-Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Striped Men Polo T-Shirt</h2>
+                    <h3>$100</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/T-Shirts/Typography Men Round Neck Multicolor T-Shirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>Typography Men T-Shirt</h2>
+                    <h3>$80</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Watchs/S-Shock Black Sports Water Resistant Watch.jpg" alt="">
+                <div class="p-details">
+                    <h2>S-Shock Black Watch</h2>
+                    <h3>$130</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Watchs/Stylish Grey Sports Men Watch.jpg" alt="">
+                <div class="p-details">
+                    <h2>Stylish Grey Men Watch</h2>
+                    <h3>$400</h3>
+                    <button class="btn-buy"> Buy Now </button>
+                </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
